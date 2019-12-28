@@ -1,6 +1,6 @@
 {
   "name": "roboto-sass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "fonts",
     "roboto",
@@ -15,5 +15,9 @@
   },
   "author": "Engr. Hussain Ahmad <engrhussainahmad@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack -p"
+  }
 }
