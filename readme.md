@@ -11,6 +11,6 @@
 Import the robobo sass file inside your desired sass file e.g
 
 ```css
-@import "~roboto-sass/scss/roboto/roboto";
+@import "~roboto-sass/scss/roboto";
 ```
-**Note:** If you want to use condensed or slab version, replace `roboto/roboto` with `roboto-condensed/roboto-condensed` or `roboto-slab/roboto/slab`.
+**Note:** If you want to use condensed or slab version, replace `roboto` with `roboto-condensed` or `roboto-slab`.
